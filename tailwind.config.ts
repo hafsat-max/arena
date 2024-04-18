@@ -17,11 +17,13 @@ const config: Config = {
         primary:'#101928',
         bg: "#292424",
         red: "#F56630",
+        orange:'#CC400C',
         blue:'#1671D9',
         'btn-sec':'#EB5017'
       },
       fontSize:{
         '16':'clamp(14px,1vw,16px)',
+        '36':'clamp(24px,2vw,32px)'
         // '60':'clamp(32px,7vw,60px)'
       },
       gap: {

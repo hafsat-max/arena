@@ -108,7 +108,7 @@ export default function RootLayout({
 
                 <ul className="flexi gap-32p eight">
                   {list.map((item) => (
-                    <li className="flex flex-col gap-1" key={item.id}>
+                    <li className="flex flex-col gap-1 items-center" key={item.id}>
                       <>{item.icon}</>
                       <span className="nine-five">{item.text}</span>
                     </li>

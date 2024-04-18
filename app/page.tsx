@@ -1,3 +1,4 @@
+import { Featured } from "@/components";
 import { Brands } from "../components/home/brands";
 import { Hero } from "../components/home/hero";
 
@@ -7,6 +8,7 @@ export default function HomePage() {
     <main>
        <Hero />
       <Brands />
+      <Featured/>
     </main>
   );
 }
