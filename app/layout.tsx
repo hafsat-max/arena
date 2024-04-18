@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import {
@@ -17,20 +17,19 @@ import { Metadata } from "next";
 
 const inter = Inter({ subsets: ["latin"] });
 
-
 const list = [
   {
-    id:'1',
+    id: "1",
     icon: <Profile size={20} />,
     text: "Profile",
   },
   {
-    id:'2',
+    id: "2",
     icon: <Heart size={20} />,
     text: "All categories",
   },
   {
-    id:'3',
+    id: "3",
     icon: <ShoppingCart size={20} />,
     text: "Cart",
   },
@@ -102,35 +101,37 @@ export default function RootLayout({
                     input: {
                       width: "24vw",
                       outline: "none",
-                      minWidth:'150px'
+                      minWidth: "150px",
                     },
                   }}
                 />
 
                 <ul className="flexi gap-32p eight">
-                 {
-                  list.map(item=>(
+                  {list.map((item) => (
                     <li className="flex flex-col gap-1" key={item.id}>
                       <>{item.icon}</>
                       <span className="nine-five">{item.text}</span>
                     </li>
-                  ))
-                 }
+                  ))}
                 </ul>
 
-                <Menu shadow="md" position="bottom-end" styles={{dropdown:{zIndex:'999px'}}}>
+                <Menu
+                  shadow="md"
+                  position="bottom-end"
+                  styles={{ dropdown: { zIndex: "999px" } }}
+                >
                   <Menu.Target>
                     <HambergerMenu size={28} className="hidden eights" />
                   </Menu.Target>
 
                   <Menu.Dropdown>
-                   <ul>
-                   <li>Men</li>
-                    <li>Women</li>
-                    <li>Kids</li>
-                    <li>On Sale</li>
-                    <li>All Categories</li>
-                   </ul>
+                    <ul>
+                      <li>Men</li>
+                      <li>Women</li>
+                      <li>Kids</li>
+                      <li>On Sale</li>
+                      <li>All Categories</li>
+                    </ul>
                   </Menu.Dropdown>
                 </Menu>
               </div>

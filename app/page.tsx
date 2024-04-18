@@ -1,14 +1,12 @@
-import Image from "next/image";
-import { Brands, Hero } from "./src/components";
+import { Brands } from "../components/home/brands";
+import { Hero } from "../components/home/hero";
 
 
-export default function Home() {
-
-  return ( 
-    <main
-    >
-      <Hero/>
-      <Brands/>
+export default function HomePage() {
+  return (
+    <main>
+       <Hero />
+      <Brands />
     </main>
   );
 }
