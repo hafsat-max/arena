@@ -4,3 +4,4 @@ import north from "../../public/north.png";
 import zara from "../../public/zara.png";
 
 export const brands = [nike, adidas, north, zara,nike, adidas, north, zara,nike, adidas, north, zara,nike, adidas, north, zara,nike, adidas, north, zara];
+

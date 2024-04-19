@@ -1,6 +1,7 @@
 import { Featured } from "@/components";
 import { Brands } from "../components/home/brands";
 import { Hero } from "../components/home/hero";
+import { CustomerExperience } from "@/components/home/customer-experience";
 
 
 export default function HomePage() {
@@ -9,6 +10,7 @@ export default function HomePage() {
        <Hero />
       <Brands />
       <Featured/>
+      <CustomerExperience />
     </main>
   );
 }

@@ -1,10 +1,10 @@
 import { Button } from "@mantine/core";
 import { Add, ArrowRight2 } from "iconsax-react";
 import React from "react";
-import { CustomButton } from "./common/button";
-import { CustomHeading } from "./common/heading";
+import { CustomButton } from "../common/button";
+import { CustomHeading } from "../common/heading";
 import Image from "next/image";
-import { Labels } from "./common/labels";
+import { Labels } from "../common/labels";
 
 export const Featured = () => {
   return (
@@ -18,7 +18,7 @@ export const Featured = () => {
         />
       </div>
 
-      <div className="gap-6 flex justify-between">
+      <div className="gap-6 flex justify-between max-[700px]:flex-col">
         <figure className={`flex-1 flex flex-col justify-between bg-[url("/featured-shorts.png")] bg-cover rounded-[10px] bg-no-repeat h-auto p-10 text-white`}>
             <Labels heading="WORLD GIRLFRIEND’S DAY" className="bg-[#F56630] "/>
 

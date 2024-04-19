@@ -19,12 +19,14 @@ const config: Config = {
         red: "#F56630",
         orange:'#CC400C',
         blue:'#1671D9',
-        'btn-sec':'#EB5017'
+        'btn-sec':'#EB5017',
+        'grey100':'#F0F2F5',
+        'grey200':'#475367'
       },
       fontSize:{
         '16':'clamp(14px,1vw,16px)',
-        '36':'clamp(24px,2vw,32px)'
-        // '60':'clamp(32px,7vw,60px)'
+        '36':'clamp(24px,2vw,32px)',
+        '60':'clamp(36px,7vw,60px)'
       },
       gap: {
         '.5':'0.5px',
@@ -32,6 +34,9 @@ const config: Config = {
         '32p':'clamp(16px,2vw,32px)',
         '113':'clamp(2rem,7vw,7.063rem)'
       },
+      lineHeight:{
+        '145':'145%'
+      }
     },
   },
   plugins: [],
