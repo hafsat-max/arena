@@ -36,7 +36,7 @@ export const CustomerExperience = () => {
         <div className="w-full h-[1px] bg-grey100"></div>
       </div>
 
-      <article className="flex justify-between">
+      <article className="flex flex-wrap gap-5 justify-between">
         {
           experience.map((item,idx)=>(
             <div className="flex flex-col gap-4 " key={idx}>
