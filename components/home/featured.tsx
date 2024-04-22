@@ -20,7 +20,7 @@ export const Featured = () => {
 
       <div className="gap-6 flex justify-between max-[700px]:flex-col">
         <figure className={`flex-1 flex flex-col justify-between bg-[url("/featured-shorts.png")] bg-cover rounded-[10px] bg-no-repeat h-auto p-10 text-white`}>
-            <Labels heading="WORLD GIRLFRIEND’S DAY" className="bg-[#F56630] "/>
+            <Labels heading="WORLD GIRLFRIEND&apos;S DAY" className="bg-[#F56630] "/>
 
             <div className="flex flex-col gap-6">
                 <div>
