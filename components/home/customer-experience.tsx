@@ -39,7 +39,7 @@ export const CustomerExperience = () => {
       <article className="flex justify-between">
         {
           experience.map((item,idx)=>(
-            <div className="flex flex-col gap-4 ">
+            <div className="flex flex-col gap-4 " key={idx}>
               <div className=" w-12 h-11 bg-[#FFF4F0] rounded-full justify-center items-center flex">
                 {item.icon}
               </div>
